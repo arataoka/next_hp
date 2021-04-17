@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from "../components/layout.js"
+import Layout from "../components/Layout.js"
 import {getAllPostsData} from "../lib/posts.js"
 import Post from "../components/post.js"
 
