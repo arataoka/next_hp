@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from "../components/layout"
-import {getAllPostsData} from "../lib/posts"
-import Post from "../components/post"
+import Layout from "../components/layout.js"
+import {getAllPostsData} from "../lib/posts.js"
+import Post from "../components/post.js"
 
 const Blog = ({posts}) => {
     return (

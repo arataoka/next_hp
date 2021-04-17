@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Layout from "../../components/Layout";
+import Layout from "../../components/Layout.js";
 import { getAllPostIds, getPostData } from "../../lib/posts";
 
 export default function Post({ post }) {
